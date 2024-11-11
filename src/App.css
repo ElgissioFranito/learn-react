@@ -14,7 +14,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  @apply flex justify-center w-screen min-h-screen;
+
+  background-color: #104eca;
+  width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
